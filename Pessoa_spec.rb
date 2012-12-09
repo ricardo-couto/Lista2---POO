@@ -38,7 +38,7 @@ describe 'Pessoa' do
     pessoa.obter_altura().should == 1.795
     pessoa.envelhecer()
     pessoa.obter_idade().should == 17
-    pessoa.obter_altura().should == 1.81
+    pessoa.obter_altura().should be_within(0.0001).of(1.81)
 
     pessoa2 = Pessoa.new(20, 75, 1.78)
     pessoa2.envelhecer()
