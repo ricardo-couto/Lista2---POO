@@ -41,10 +41,13 @@ class TV
     @volume
   end
 
+   PRIMEIRO_CANAL = 1
+   ULTIMO_CANAL = 60
+
 private
 
   def validar_canal(novo_canal)
-    raise if novo_canal < 1 || novo_canal > 60
+    raise if novo_canal < PRIMEIRO_CANAL || novo_canal > ULTIMO_CANAL
   end
 
   def validar_volume()
