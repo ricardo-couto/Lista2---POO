@@ -47,7 +47,6 @@ public class NumerosPrimosPerfeitosEFelizes {
 				partes[i] = Integer.parseInt(String.valueOf(strValor.charAt(i)));
 			for (int n : partes)
 				valor += Math.pow(n, 2);
-			System.out.println(valor);
 			if (anteriores.contains(valor))
 				return false;
 			anteriores.add(valor);
