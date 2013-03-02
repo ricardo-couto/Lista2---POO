@@ -34,14 +34,14 @@ public class NumerosPrimosPerfeitosEFelizesTest {
 	
 	@Test
 	public void testaSeUmNumeroÉFeliz(){
-		/*assertTrue(new NumerosPrimosPerfeitosEFelizes(1).EhFeliz());
+		assertTrue(new NumerosPrimosPerfeitosEFelizes(1).EhFeliz());
 		assertFalse(new NumerosPrimosPerfeitosEFelizes(2).EhFeliz());
 		assertFalse(new NumerosPrimosPerfeitosEFelizes(3).EhFeliz());
 		assertFalse(new NumerosPrimosPerfeitosEFelizes(4).EhFeliz());
 		assertFalse(new NumerosPrimosPerfeitosEFelizes(5).EhFeliz());
 		assertFalse(new NumerosPrimosPerfeitosEFelizes(6).EhFeliz());
 		assertTrue(new NumerosPrimosPerfeitosEFelizes(7).EhFeliz());
-		assertTrue(new NumerosPrimosPerfeitosEFelizes(10).EhFeliz());*/
+		assertTrue(new NumerosPrimosPerfeitosEFelizes(10).EhFeliz());
 		assertFalse(new NumerosPrimosPerfeitosEFelizes(13).EhFeliz());
 	}
 
